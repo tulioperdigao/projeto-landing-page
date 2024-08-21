@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+* {
+    font-family: Raleway, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    max-width: 700px;
+    margin: auto;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    background-image: url(imagens/banner.png), radial-gradient( #0c232c, black);
+    background-size: contain;
+    padding: 50px 0px;
+    border-bottom: 1px solid #1672B1;
+}
+
+header img {
+    padding: 10px;
+}
+
+header h1 {
+    color: #1672B1;
+    padding: 20px;
+    font-size: 2.5em;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.677);
+}
+
+header p {
+    color: white;
+    padding-bottom: 20px;
+    font-size: 1.3em;
+}
+
+header button {
+    color: #31a8dd;
+    font-weight: bold;
+    padding: 10px;
+    width: 220px;
+    background-color: transparent;
+    border: 2px solid #1672B1;
+}
+
+header button:hover {
+    background-color: #1672B1;
+    color: white;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 20px rgba(0, 0, 0, 0.57);
+}
+
+main {
+    width: 100%;
+}
+
+.section-black-background {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    color: #31a8dd;
+    text-align: center;
+    padding: 20px;
+    font-size: 2em;
+}
+
+#learn-content {
+    border-bottom: 1px solid #1672B1;
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+#learn-content > div{
+    padding: 15px;
+    border: 1px solid #31a8dd;
+    width: 450px;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: rgb(52, 52, 52);
+    box-shadow: inset 0px 10px 10px rgba(0, 0, 0, 0.782);
+}
+
+#learn-content > div > span {
+    color: #31a8dd;
+}
+
+#women-background {
+    height: 555px;
+    background-image: url(imagens/woman-code.png), radial-gradient(rgba(0, 0, 0, 0.796), rgba(0, 0, 0, 0.796));
+    background-size: cover;
+    background-attachment: fixed;
+    border-bottom: 1px solid #1672B1;
+}
+
+#women-background div {
+    color: white;
+    font-weight: 900;
+    font-size: 2.5em;
+    text-shadow: 3px 3px 0px #31a8dd;
+    width: 250px;
+    padding-top: 180px;
+    padding-left: 200px;
+}
+
+#professional-challenges {
+    border-bottom: 1px solid #1672B1;
+}
+
+#professional-challenges h2 {
+    padding: 60px;
+    font-size: 2em;
+}
+
+#professional-challenges img {
+    padding-bottom: 30px;
+}
+
+#professional-challenges p {
+    padding-bottom: 80px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+
+footer a {
+    color: #31a8dd;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    font-weight: normal;
+}
+

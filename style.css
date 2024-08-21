@@ -29,7 +29,10 @@ header h1 {
     padding: 20px;
     font-size: 2.5em;
     font-weight: 900;
-    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.677);
+    background-clip: initial;
+    background: linear-gradient(to bottom, #38c3fe, #0e4d77);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 header p {

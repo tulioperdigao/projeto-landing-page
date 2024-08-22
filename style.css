@@ -132,7 +132,7 @@ h2 {
 }
 
 footer {
-    background-color: black;
+    background-image: linear-gradient(to top, #0c232c, black);
     text-align: center;
     padding: 50px;
     color: white;
